@@ -40,3 +40,7 @@ func (c *ContaCorrente) Tranferir(valorDaTransferencia float64, contaDestino *Co
 func (c *ContaCorrente) ObterSaldo() float64 {
 	return c.saldo
 }
+
+// go mod init banco
+// go mod tidy
+// go run main.go
